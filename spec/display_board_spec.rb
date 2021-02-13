@@ -32,7 +32,7 @@ describe '/lib/display_board.rb' do
 
     it 'prints a 3x3 tic tac toe board' do
       output = capture_puts{ display_board }
-      expected_output += "A Tic Tac Toe Board\n"
+      expected_output += ""
       expected_output += "   |   |   \n"
       expected_output += "-----------\n"
       expected_output += "   |   |   \n"
